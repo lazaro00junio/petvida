@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumo da Clínica</title>
+</head>
+<body>
+    <h1>Resumo da Clínica</h1>
+    
+    <p><strong>Total de animais cadastrados:</strong> <span th:text="${totalAnimais}"></span></p>
+    <p><strong>Média de idade:</strong> <span th:text="${mediaIdade}"></span> anos</p>
+    <p><strong>Animal mais velho:</strong> <span th:text="${animalMaisVelho}"></span></p>
+    
+    <hr>
+    <p><strong>Página gerada em:</strong> <span th:text="${dataHoraGeracao}"></span></p>
+</body>
+</html>
